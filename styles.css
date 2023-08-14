@@ -146,3 +146,11 @@ body {
     background-image: hsl(234, 14%, 74%);
 
 }
+
+
+@media screen and (max-width: 375px){
+body{
+
+}
+
+}
