@@ -11,7 +11,7 @@ body {
 
 .content {
     background-image: url(/images/bg-bottom.svg);
-
+  flex-wrap:wrap;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,9 +105,9 @@ body {
 
 }
 .basic, .master{
-    -webkit-box-shadow: 6px 6px 17px 3px rgba(0,0,0,0.5);
-    -moz-box-shadow: 6px 6px 17px 3px rgba(0,0,0,0.5);
-    box-shadow: 6px 6px 17px 3px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 1px 10px 5px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow: 1px 10px 5px 0px rgba(0,0,0,0.15);
+  box-shadow: 1px 10px 5px 0px rgba(0,0,0,0.15);
 }
 .pro {
     background-image: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
@@ -148,9 +148,10 @@ body {
 }
 
 
-@media screen and (max-width: 375px){
-body{
-
+@media screen and (min-width: 375px){
+.contnet{
+  display:flex;
+  flex-direction: column;
 }
 
 }
