@@ -1,0 +1,21 @@
+:root {
+    --center-display: center;
+  }
+  
+
+body{
+background-image: url(/images/bg-bottom.svg);
+width: 100vw;
+height: 100vh;
+
+}
+
+.content{
+    background-image: url(/images/bg-top.svg);
+    display:flex
+    
+}
+
+.box{
+background-image: Linear-Gradient( hsl(236, 72%, 79%) to hsl(237, 63%, 64%))
+}
