@@ -1,21 +1,45 @@
-:root {
-    --center-display: center;
-  }
-  
 
 body{
-background-image: url(/images/bg-bottom.svg);
+font-family: Montserrat;
+background-image: url(/images/bg-top.svg);
 width: 100vw;
 height: 100vh;
+margin: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
 
 }
 
 .content{
-    background-image: url(/images/bg-top.svg);
-    display:flex
-    
+    background-image: url(/images/bg-bottom.svg);
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box{
-background-image: Linear-Gradient( hsl(236, 72%, 79%) to hsl(237, 63%, 64%))
+    background-color:hsl(240, 78%, 98%);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 16em;
+    height: 360px;
+    border-radius: .5em;
 }
+
+.pro{
+    background-image: linear-gradient(
+        hsl(236, 72%, 79%),
+        hsl(237, 63%, 64%)
+      );
+      height: 380px;
+      color: hsl(240, 78%, 98%);
+      display:flex;
+
+}
+    
+
