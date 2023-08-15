@@ -1,6 +1,6 @@
 body {
     font-family: Montserrat;
-    background-image: url(/images/bg-top.svg);
+    background-image: url(./images/bg-top.svg);
     width: 100vw;
     height: 100vh;
     margin: 0;
@@ -10,8 +10,7 @@ body {
 }
 
 .content {
-    background-image: url(/images/bg-bottom.svg);
-  flex-wrap:wrap;
+    flex-wrap:nowrap;
     display: flex;
     justify-content: center;
     align-items: center;
