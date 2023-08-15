@@ -6,6 +6,10 @@ const monthlyText2 = document.getElementById("monthly2");
 const annualText3 = document.getElementById("annual3");
 const monthlyText3 = document.getElementById("monthly3");
 
+monthlyText1.style.display = "none";
+monthlyText2.style.display = "none";
+monthlyText3.style.display = "none";
+
 toggleSwitch.addEventListener("change", function () {
     if (toggleSwitch.checked) {
         annualText1.style.display = "none";
