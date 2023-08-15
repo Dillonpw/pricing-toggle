@@ -104,6 +104,11 @@ body {
     color:hsl(232, 13%, 33%)
 
 }
+
+#monthly1, #monthly2, #monthly3, #annual1 ,#annual2, #annual3{
+  font-size:60px;
+}
+
 .basic, .master{
   -webkit-box-shadow: 1px 10px 5px 0px rgba(0,0,0,0.15);
   -moz-box-shadow: 1px 10px 5px 0px rgba(0,0,0,0.15);
