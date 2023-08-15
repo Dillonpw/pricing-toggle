@@ -1,6 +1,7 @@
 body {
     font-family: Montserrat;
     background-image: url(./images/bg-top.svg);
+    background-size: cover;
     width: 100vw;
     height: 100vh;
     margin: 0;
