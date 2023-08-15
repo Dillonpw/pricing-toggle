@@ -1,6 +1,6 @@
 body {
     font-family: Montserrat;
-    background-image: url(FM-3/images/bg-top.svg);
+    background-image: url(/images/bg-top.svg);
     width: 100vw;
     height: 100vh;
     margin: 0;
@@ -159,7 +159,7 @@ input:checked + .slider:before {
     margin-top: 15px;
     margin-bottom: 20px;
     margin-top: 15px;
-    background-image: hsl(234, 14%, 74%);
+    color:hsl(237, 63%, 64%)
 }
 
 #learnBtn:hover {
