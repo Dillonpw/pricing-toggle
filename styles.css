@@ -215,7 +215,7 @@ input:checked + .slider:before {
         justify-content: center;
     }
 
-    .header,
+    header,
     .content {
         width: 100%;
         text-align: center;
