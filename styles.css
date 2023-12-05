@@ -1,26 +1,28 @@
-body {
+html, body {
     font-family: Montserrat;
     width: 100vw;
     height: 100vh;
     margin: 0;
+    padding:0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow: none;
 }
+
 .bg-top,
 .bg-bottom {
     background-size: cover;
-
     position: fixed;
     z-index: -1;
 }
 .content {
-    flex-wrap: nowrap;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 .toggle {
     display: flex;
@@ -55,7 +57,6 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-
     background-color: hsl(237, 63%, 64%);
     -webkit-transition: 0.4s;
     transition: 0.4s;
@@ -182,8 +183,6 @@ input:checked + .slider:before {
     text-decoration: none;
 }
 
-@media screen and (max-width: 900px) {
-}
 
 @media screen and (min-width: 900px) {
     .bg-top {
@@ -205,15 +204,17 @@ input:checked + .slider:before {
 @media screen and (max-width: 900px) {
     .bg-top {
         width: 30%;
-        height: 100vh;
+        height:100vh;
         top: 0;
         right: 0;
         background-image: url('images/bg-top.svg');
     }
 
-    .content {
+ 
+    .main{
         display: flex;
+        height:50vh;
         flex-direction: column;
-        gap: 2rem;
+        gap: 1rem;
     }
 }
